@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc60f268-07fa-4636-b975-94149caf5ecb">
+  <producedTypes>
+    <objectType typeId="54b4b496-c301-4968-b34b-0094e25174f6" valueTypeId="b580a22a-0b25-4f7b-8ced-28f19dc94bad"/>
+    <refType typeId="3bd35cda-c674-4a75-ad71-cbdd932db7c1" valueTypeId="80afec39-565d-4edb-899d-5cb549de8bf9"/>
+    <selectionType typeId="a7596ca8-e676-4f24-b44c-e9ace687d83b" valueTypeId="d5bbd474-702d-4dbb-a773-ee36231a445c"/>
+    <listType typeId="bdfa6e13-c59e-4266-a2e1-dd59c0e01c46" valueTypeId="8596467b-6cb8-41d5-a3ca-7ef03da4f292"/>
+    <managerType typeId="80635e7f-45c2-4962-ad1f-f563ba33be4f" valueTypeId="843493b4-1029-435e-a9f3-a3c61a40f55a"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КадровыйПеревод.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="31b7e02b-a408-4bd9-876a-59eb4133cc9d">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fb2cfb0e-e30b-4271-894c-393277b66b13">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
